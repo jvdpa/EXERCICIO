@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+header.hero {
+    background: linear-gradient(to right, #4a90e2, #9013fe);
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+nav a.logo {
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+}
+
+.hero-content p {
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+.btn {
+    background-color: #fff;
+    color: #4a90e2;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+section {
+    padding: 60px 20px;
+}
+
+section h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 32px;
+}
+
+.features .feature-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.feature-item {
+    max-width: 300px;
+    text-align: center;
+}
+
+.pricing .pricing-table {
+    display: flex;
+    justify-content: center;
+}
+
+.pricing-item {
+    margin: 0 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 40px;
+}
+
+footer form input,
+footer form textarea {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+footer form button {
+    background-color: #4a90e2;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
